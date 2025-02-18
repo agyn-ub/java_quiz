@@ -1,0 +1,1 @@
+ALTER TABLE "categories" ADD COLUMN "name_ru" text NOT NULL;
