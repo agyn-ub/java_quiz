@@ -212,7 +212,7 @@ export function QuizContainer({ questions }: { questions: Question[] }) {
 											: 'bg-red-50 border-red-500 text-red-700'
 										: showFeedback && option === currentQuestionData.correctAnswer
 										? 'bg-green-50 border-green-500 text-green-700'
-										: 'bg-white border-gray-200 hover:border-blue-400 hover:bg-blue-50'
+										: 'bg-white border-gray-200'
 									}
 									${(isSubmitting || showFeedback || isLoadingResults) && selectedAnswer !== option
 										? 'opacity-50 cursor-not-allowed'
